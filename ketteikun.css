@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(-135deg,#05FBFF, #1E00FF)fixed;
+  color: #FDFFFF;
+  width: 500px;
+  margin-right: auto;
+  margin-left : auto;
+}
+
+#title{
+  margin: 10px 30px;
+}
+.ketteikun {
+  text-align:center;
+}
+
+.ketteikun:hover {
+  display: inline-block;
+  animation: Furueru .1s  infinite;
+}
+
+@keyframes Furueru {
+  0% {transform: translate(160px, 0px) rotateZ(0deg)}
+  25% {transform: translate(162px, 2px) rotateZ(1deg)}
+  50% {transform: translate(160px, 2px) rotateZ(0deg)}
+  75% {transform: translate(162px, 0px) rotateZ(-1deg)}
+  100% {transform: translate(160px, 0px) rotateZ(0deg)}
+}
+
+#catch
+{margin: 30px 30px;
+}
+
+.godimg
+ {display:none;
+  text-align:center;
+  animation: god 3s linear infinite;
+    transform-origin: 50% 50%;
+    margin: 1rem 0 ;
+  }
+   
+  @keyframes god {
+    0% { transform: translateY(0) }
+    33.33333% { transform: translateY(-20px) }
+    66.66667% { transform: translateY(10px) }
+    100% { transform: translateY(0) }
+  }
+
+#result-area{
+  margin: 10px 10px;
+}
+
+button {
+  padding: 5px 20px;
+  width: 140px;
+  height: 70px;
+  margin: 20px;
+  font-size: xx-large;
+  background-color: #337AB7;
+  color: #FDFFFF;
+  border-style: none;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#result-area{
+  font-size: xx-large;
+  margin: 30px 30px
+}
+
+#tweet-area{
+  margin: 30px
+}
+
+.selectbox{
+  height: 30px;
+  margin: 5px 5px;
+}
